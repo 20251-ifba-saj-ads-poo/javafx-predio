@@ -13,12 +13,12 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controller">
+<VBox alignment="CENTER" prefHeight="328.0" prefWidth="370.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controller">
     <children>
       <HBox prefHeight="0.0" prefWidth="200.0" spacing="10.0">
          <children>
-              <Label contentDisplay="CENTER" prefHeight="26.0" prefWidth="44.0" text="Andares" textAlignment="CENTER" />
-            <TextField fx:id="qtdAndares" prefHeight="25.0" prefWidth="90.0" />
+              <Label contentDisplay="CENTER" prefHeight="24.0" prefWidth="95.0" text="Andares" textAlignment="CENTER" />
+            <TextField fx:id="qtdAndares" prefHeight="24.0" prefWidth="152.0" />
             <Button mnemonicParsing="false" onAction="#gerarAndares" text="gerar" />
          </children>
       </HBox>
